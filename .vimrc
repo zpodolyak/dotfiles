@@ -14,8 +14,9 @@ set hlsearch
 set bg=dark
 
 set backup		
-set undofile	
 set backupdir=/tmp
+set undofile
+set undodir=/tmp
 
 set smartindent
 set ignorecase
