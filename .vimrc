@@ -18,6 +18,8 @@ set backupdir=/tmp
 set undofile
 set undodir=/tmp
 
+set pastetoggle=<F2>
+
 set smartindent
 set ignorecase
 
