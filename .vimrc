@@ -23,5 +23,6 @@ set pastetoggle=<F2>
 set smartindent
 set ignorecase
 
+map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
 map <C-e> <ESC>:tabedit
 
