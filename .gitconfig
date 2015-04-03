@@ -1,0 +1,9 @@
+[user]
+	name = Zoltan Podolyak
+	email = <EDIT>
+[core]
+	editor = vim
+[color]
+	ui = auto
+[alias]
+  tree = log --graph --decorate --oneline
