@@ -1,9 +1,10 @@
 [user]
 	name = Zoltan Podolyak
-	email = <EDIT>
+	email = zoltan_podolyak@hotmail.com
 [core]
 	editor = vim
-[color]
 	ui = auto
+[diff]
+  tool = vimdiff
 [alias]
-  tree = log --graph --decorate --oneline
+  st = status
