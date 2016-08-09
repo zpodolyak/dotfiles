@@ -1,10 +1,10 @@
 [user]
-	name = Zoltan Podolyak
-	email = zoltan_podolyak@hotmail.com
+  name = Zoltan Podolyak
+  email = zoltan_podolyak@hotmail.com
 
 [core]
-	editor = vim
-	ui = auto
+  editor = vim
+  ui = auto
 
 [merge]
   tool = vimdiff
