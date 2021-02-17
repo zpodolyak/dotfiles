@@ -1,14 +1,22 @@
+# This is Git's per-user configuration file.
 [user]
-  name = Zoltan Podolyak
-  email = zoltan_podolyak@hotmail.com
-
-[core]
-  editor = vim
-  ui = auto
-
-[merge]
-  tool = vimdiff
-
+    name = Zoltan Podolyak
+    email = zoltan.podolyak@redfrond.com
 [alias]
-  st = status
-
+    br = branch
+    co = checkout
+    st = status
+    pl = pull --rebase
+[core]
+    autocrlf = false
+    editor = code --wait
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[init]
+    defaultBranch = master
